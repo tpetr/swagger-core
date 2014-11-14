@@ -6,11 +6,16 @@
     <relativePath>../..</relativePath>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.wordnik</groupId>
+  <groupId>com.hubspot</groupId>
   <artifactId>swagger-core_2.10</artifactId>
   <packaging>jar</packaging>
   <name>swagger-core</name>
-  <version>1.3.10</version>
+  <version>1.3.10.1-HUBSPOT</version>
+    <scm>
+        <connection>scm:git:git@github.com:tpetr/swagger-core.git</connection>
+        <developerConnection>scm:git:git@github.com:tpetr/swagger-core.git</developerConnection>
+        <url>https://github.com/tpetr/swagger-core</url>
+    </scm>
   <build>
     <sourceDirectory>src/main/java</sourceDirectory>
     <defaultGoal>install</defaultGoal>
